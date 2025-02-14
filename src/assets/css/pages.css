@@ -1,0 +1,57 @@
+/* * HOME PAGE */
+
+/* * MENU PAGE */
+
+/* * ORDER PAGE */
+
+/* * DEFAULT LAYOUT */
+header {
+  background-color: orange;
+  margin-bottom: 2rem;
+}
+
+.navbar-container {
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 1rem;
+}
+
+.link-nav {
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+/* ! DEBUG */
+.logo-container span {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-container {
+    padding-bottom: 0.5rem;
+  }
+}

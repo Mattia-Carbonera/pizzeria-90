@@ -13,13 +13,19 @@ export default function DefaultLayout() {
           <nav>
             <ul>
               <li>
-                <Link to={"/"}>Home</Link>
+                <Link className="link-nav" to={"/"}>
+                  Home
+                </Link>
               </li>
               <li>
-                <Link to={"/menu"}>Menu</Link>
+                <Link className="link-nav" to={"/menu"}>
+                  Menu
+                </Link>
               </li>
               <li>
-                <Link to={"/ordina"}>Ordina</Link>
+                <Link className="link-nav" to={"/ordina"}>
+                  Ordina
+                </Link>
               </li>
             </ul>
           </nav>
