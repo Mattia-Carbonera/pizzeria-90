@@ -4,7 +4,7 @@ import DefaultLayout from "./assets/defaultLayout/defaultLayout";
 // * import pages
 import HomePage from "./assets/pages/HomePage";
 import MenuPage from "./assets/pages/MenuPage";
-import OrdinaPage from "./assets/pages/OrderPage";
+import OrderPage from "./assets/pages/OrderPage";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Route Component={DefaultLayout}>
           <Route index Component={HomePage} />
           <Route path="/menu" Component={MenuPage} />
-          <Route path="/ordina" Component={OrdinaPage} />
+          <Route path="/ordina" Component={OrderPage} />
         </Route>
       </Routes>
     </BrowserRouter>

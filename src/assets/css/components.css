@@ -1,0 +1,67 @@
+/* * PIZZAS CARD */
+.pizzas-container {
+  margin: 3rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pizzas-card-container {
+  position: relative;
+
+  /* height: 18rem; */
+  width: 12rem;
+  margin: 1rem 0.5rem;
+
+  border-radius: 10px;
+
+  box-shadow: 1px 2px 3px lightgray;
+}
+
+.pizzas-card-image {
+  width: 100%;
+  height: 50%;
+
+  border-radius: 10px;
+
+  margin-bottom: 0.5rem;
+}
+
+.pizzas-card-body {
+  font-size: 0.7rem;
+  padding: 1rem;
+}
+
+.pizzas-card-body h2 {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.pizzas-card-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+  border-radius: 10px;
+}
+
+/* * NOT AVAILABLE */
+.not-available {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: red;
+
+  background-color: rgba(128, 128, 128, 0.8);
+  border-radius: 10px;
+}

@@ -3,6 +3,9 @@
 /* * MENU PAGE */
 
 /* * ORDER PAGE */
+.order-container h1 {
+  text-align: center;
+}
 
 /* * DEFAULT LAYOUT */
 header {
